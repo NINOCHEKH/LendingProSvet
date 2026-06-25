@@ -76,10 +76,11 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 38px;
-  padding: 0 28px;
+  min-height: 44px;
+  padding: 0 34px;
   border-radius: 7px;
   font-family: "TTNormsProM", Arial, sans-serif;
+  font-size: 18px;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
@@ -99,14 +100,14 @@ img {
 }
 
 .primary-button {
-  min-width: 240px;
+  min-width: 300px;
   background: var(--pink);
   color: #ffffff;
   box-shadow: 0 12px 28px rgba(255, 143, 168, 0.24);
 }
 
 .outline-button {
-  min-width: 240px;
+  min-width: 300px;
   border: 1px solid var(--pink);
   color: var(--pink);
   background: #ffffff;
@@ -127,10 +128,10 @@ img {
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(320px, 0.9fr) minmax(480px, 1.1fr);
-  gap: 36px;
-  min-height: 640px;
-  padding-top: 116px;
+  grid-template-columns: minmax(320px, 0.82fr) minmax(560px, 1.18fr);
+  gap: 50px;
+  min-height: 620px;
+  padding-top: 104px;
   padding-bottom: 72px;
 }
 
@@ -151,8 +152,8 @@ img {
 
 .hero h1 {
   max-width: 560px;
-  font-size: clamp(42px, 5.4vw, 70px);
-  line-height: 0.98;
+  font-size: clamp(36px, 4.15vw, 56px);
+  line-height: 1.04;
 }
 
 .hero h1 span,
@@ -163,9 +164,9 @@ img {
 
 .hero-copy p {
   max-width: 390px;
-  margin: 30px 0 24px;
+  margin: 24px 0 26px;
   color: var(--blue);
-  font-size: 22px;
+  font-size: 21px;
   line-height: 1.1;
 }
 
@@ -186,14 +187,15 @@ img {
 .hero-visual {
   position: relative;
   min-height: 480px;
+  transform: translateX(12px);
 }
 
 .gradient-card {
   position: absolute;
-  right: 36px;
-  top: 84px;
-  width: min(92%, 560px);
-  height: 360px;
+  right: 32px;
+  top: 58px;
+  width: min(94%, 610px);
+  height: 370px;
   border-radius: 10px;
   background:
     radial-gradient(circle at 72% 20%, rgba(255, 143, 168, 0.6), transparent 28%),
@@ -207,21 +209,21 @@ img {
 }
 
 .shape-left {
-  left: 8px;
-  bottom: 64px;
-  width: 260px;
+  left: -4px;
+  bottom: 52px;
+  width: 300px;
 }
 
 .shape-top {
-  top: 22px;
-  right: 152px;
-  width: 150px;
+  top: 8px;
+  right: 198px;
+  width: 142px;
 }
 
 .shape-right {
-  right: -10px;
-  bottom: 16px;
-  width: 132px;
+  right: -18px;
+  bottom: 20px;
+  width: 138px;
 }
 
 .specialist-card {
@@ -230,21 +232,21 @@ img {
 }
 
 .card-sergey {
-  left: 24px;
-  top: 118px;
-  width: 290px;
+  left: 22px;
+  top: 88px;
+  width: 322px;
 }
 
 .card-may {
-  right: 0;
-  top: 64px;
-  width: 220px;
+  right: -2px;
+  top: 42px;
+  width: 226px;
 }
 
 .card-sofia {
-  right: 42px;
-  bottom: 56px;
-  width: 255px;
+  right: 62px;
+  bottom: 70px;
+  width: 270px;
 }
 
 .feature-strip {
